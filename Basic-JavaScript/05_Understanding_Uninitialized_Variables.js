@@ -28,3 +28,51 @@ c = c + " String!";
 console.log(a); // output: 6
 console.log(b); // output: 15
 console.log(c); // output: I am a String!
+
+// *************************Understanding Case Sensitivity in Variables*************************
+/*
+
+In JavaScript all variables and function names are case sensitive. This means that capitalization matters.
+e.g
+
+    MYVAR is not the same as MyVar nor myvar
+
+ ***Best Practice***
+
+Write variable names in JavaScript in camelCase. In camelCase, multi-word variable names have the first word in lowercase and the first letter of each subsequent word is capitalized.
+e.g
+
+    var someVariable;
+    var anotherVariableName;
+    var thisVariableNameIsSoLong;
+
+*/
+
+// Test Quiz
+/*
+Modify the existing declarations and assignments so their names use camelCase.
+Do not create any new variables.
+
+// Variable declarations
+var StUdLyCapVaR;
+var properCamelCase;
+var TitleCaseOver;
+
+// Variable assignments
+STUDLYCAPVAR = 10;
+PRoperCAmelCAse = "A String";
+tITLEcASEoVER = 9000;
+
+*/
+
+// Solution***
+
+// Variable declarations
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
+
+// Variable assignments
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;

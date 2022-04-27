@@ -35,3 +35,21 @@ myVar would have the value 169.
 // Solution
 const product = 8 * 10;
 console.log(product);
+
+// *******************Divide One Number by Another with JavaScript*******************
+/*
+JavaScript uses the / symbol for division.
+
+Example
+
+    const myVar = 16 / 2;
+
+myVar now has the value 8.
+*/
+// Test Quiz
+// Change the 0 so that the quotient is equal to 2.
+// const quotient = 66 / 0;
+
+// Solution
+const quotient = 66 / 33;
+console.log(quotient);

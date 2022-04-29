@@ -65,3 +65,31 @@ f = f - 1;
 d -= 6; // Output: 5
 e -= 15; // Output: -6
 f -= 1; // Output: 2
+
+/*
+************Compound Assignment With Augmented Multiplication************
+
+The *= operator multiplies a variable by a number.
+
+    myVar = myVar * 5;
+
+will multiply myVar by 5. This can be rewritten as:
+
+    myVar *= 5;
+
+// Test Quiz
+Convert the assignments for a, b, and c to use the *= operator.
+*/
+let g = 5;
+let h = 12;
+let i = 4.6;
+
+// Only change code below this line
+g = g * 5;
+h = 3 * h;
+i = i * 10;
+
+// Solution
+a *= 5; // Output: 25
+b *= 3; // Output: 36
+c *= 10; // Output: 46

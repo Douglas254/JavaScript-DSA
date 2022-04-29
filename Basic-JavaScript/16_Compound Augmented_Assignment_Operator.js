@@ -49,7 +49,7 @@ will subtract 5 from myVar. This can be rewritten as:
     myVar -= 5;
 
 // Test Quiz
-Convert the assignments for a, b, and c to use the -= operator.
+Convert the assignments for d, e, and f to use the -= operator.
 */
 
 let d = 11;
@@ -78,7 +78,7 @@ will multiply myVar by 5. This can be rewritten as:
     myVar *= 5;
 
 // Test Quiz
-Convert the assignments for a, b, and c to use the *= operator.
+Convert the assignments for g, h, and i to use the *= operator.
 */
 let g = 5;
 let h = 12;
@@ -90,6 +90,6 @@ h = 3 * h;
 i = i * 10;
 
 // Solution
-a *= 5; // Output: 25
-b *= 3; // Output: 36
-c *= 10; // Output: 46
+g *= 5; // Output: 25
+h *= 3; // Output: 36
+i *= 10; // Output: 46

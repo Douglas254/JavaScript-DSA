@@ -36,3 +36,32 @@ c += 7;
 console.log(a);
 console.log(b);
 console.log(c);
+
+/*
+************Compound Assignment With Augmented Subtraction************
+
+Like the += operator, -= subtracts a number from a variable.
+
+    myVar = myVar - 5;
+
+will subtract 5 from myVar. This can be rewritten as:
+
+    myVar -= 5;
+
+// Test Quiz
+Convert the assignments for a, b, and c to use the -= operator.
+*/
+
+let d = 11;
+let e = 9;
+let f = 3;
+
+// Only change code below this line
+d = d - 6;
+e = e - 15;
+f = f - 1;
+
+// Solution
+d -= 6; // Output: 5
+e -= 15; // Output: -6
+f -= 1; // Output: 2

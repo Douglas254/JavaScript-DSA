@@ -93,3 +93,31 @@ i = i * 10;
 g *= 5; // Output: 25
 h *= 3; // Output: 36
 i *= 10; // Output: 46
+
+/*
+************Compound Assignment With Augmented Division************
+
+The /= operator divides a variable by another number.
+
+    myVar = myVar / 5;
+
+Will divide myVar by 5. This can be rewritten as:
+
+    myVar /= 5;
+
+// Test Quiz
+Convert the assignments for j, k, and l to use the /= operator.
+*/
+let j = 48;
+let k = 108;
+let l = 33;
+
+// Only change code below this line
+j = j / 12;
+k = k / 4;
+l = l / 11;
+
+// Solution
+j /= 12; // Output: 4
+k /= 4; // Output: 27
+l /= 11; // Output: 3
